@@ -1,0 +1,5 @@
+language: typescript
+app: node main.js
+imports:
+  - k8s@v1.22.0
+  - https://github.com/knative/serving/releases/download/v0.21.0/serving-crds.yaml
